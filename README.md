@@ -34,7 +34,7 @@ delpaste!(client::PastebinClient, key::PasteKey)
 # Example: getraw(PasteKey("fs52lKAHf"))
 getraw(key::PasteKey)
 ```
-##### You can use the following methods to access parts of the PastebinResponse:
+###### You can use the following methods to access parts of the PastebinResponse:
 ```Julia
 content(resp::PastebinResponse)
 success(resp::PastebinResponse)
